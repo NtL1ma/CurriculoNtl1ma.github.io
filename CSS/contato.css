@@ -1,0 +1,39 @@
+.Contato {
+  background-color: black;
+  height: 400px;
+  position: relative;
+}
+.Contato-conteiner {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.cont {
+  color: #e9e6e6;
+  font-size: 2rem;
+  padding: 25px 12.5px;
+}
+.cont span {
+  grid-template-columns: coluns;
+  font-size: 1rem;
+  color: #525252;
+}
+.nome {
+  font-size: 4rem;
+  word-wrap: break-word;
+  color: #141414;
+  width: 220px;
+}
+.Contato::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/detalhe.svg") no-repeat center;
+  position: absolute;
+  left: 35px;
+  top: 20px;
+}
